@@ -27,8 +27,8 @@ def inpaint_image(image_path, mask_path, radius=3):
 
   return output
 
-# Example usage
+#Usage
 image_path = "...ex01.png" #enter image path
 mask_path = "...mask01.png" #enter mask path
-output_image = inpaint_image(image_path, mask_path, radius=25)
+output_image = inpaint_image(image_path, mask_path, radius=5)
 cv2.imwrite("output_ns.jpg", output_image)
